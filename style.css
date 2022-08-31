@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.background{
+    width: 100%;
+    height: 200vh;
+    background-image: url(images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.profile-img{
+    width: 330px;
+    height: 410px;
+    border: 5px solid black;
+    border-radius: 50px;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-bottom: 70px;  
+    float: left; 
+    animation-name: profile;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+@keyframes profile {
+    0%{
+        border: 5px solid rgb(98, 2, 2);
+    }
+    50%{
+        border: 5px solid rgb(96, 0, 67);
+    }
+    70%{
+        border: 5px solid rgb(2, 2, 141);
+    }
+    100%{
+        border: 5px solid rgb(54, 2, 128);
+    }
+    
+}
+.about{
+    display: block;
+    color: white;
+    float: left;
+    margin-top: 250px;
+    margin-left: 50px;
+
+}
+.button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+}
+.button a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+}
+.button:hover{
+    background-color: red;
+    box-shadow: 0px 4px 10px 0 white;
+    width: 135px;
+    height: 50px;
+    border-radius: 40px;
+    font-size: larger;
+}
+.button1{
+    width: 180px;
+    height: 60px;
+    border-radius: 40px;
+
+}
+.button1 a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+}
+.button1:hover{
+    background-color: red;
+    box-shadow: 0px 4px 10px 0 white;
+    width: 190px;
+    height: 70px;
+    border-radius: 40px;
+    font-size: larger;
+}
+.side-bar{
+    width: 65px;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.social-link img{
+    width: 40px;
+    margin: 5px auto;
+    cursor: pointer;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    
+}
+.social-link{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.social-link img:hover{
+    width: 60px;
+    animation-name: social;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes social {
+    0%{
+        border: 5px solid rgb(98, 2, 2);
+    }
+    50%{
+        border: 5px solid rgb(96, 0, 67);
+    }
+    70%{
+        border: 5px solid rgb(2, 2, 141);
+    }
+    100%{
+        border: 5px solid rgb(54, 2, 128);
+    }
+    
+}
+.return-link{
+    display: block;
+    width: 40px;
+    margin: 20px auto 0 6px;
+    border: none;
+    border-radius: 30px;
+}
+.div-clear {
+    clear: both;
+}
+hr{
+    width: 45%;
+    border-bottom: none;
+    border-radius: 30px;
+    display: block;
+    margin: 100px auto;
+    animation-name: hrline;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes hrline {
+    0%{
+        border: 5px solid rgb(203, 4, 4);
+    }
+    50%{
+        border: 5px solid rgb(197, 1, 138);
+    }
+    70%{
+        border: 5px solid rgb(4, 4, 206);
+    }
+    100%{
+        border: 5px solid rgb(82, 0, 197);
+    }
+    
+}
+.photo-journey{
+    text-align: right;
+    display: block;
+    color: white;
+    float: left;
+    margin-top: 180px;
+    margin-left: 450px;
+}
+.profile1-img{
+    width: 330px;
+    height: 410px;
+    border: 5px solid black;
+    border-radius: 50px;
+    margin-top: 100px;
+    margin-right: 300px;  
+    margin-bottom: 70px;
+    float: right; 
+    animation-name: profile1;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+@keyframes profile1 {
+    0%{
+        border: 5px solid rgb(98, 2, 2);
+    }
+    50%{
+        border: 5px solid rgb(96, 0, 67);
+    }
+    70%{
+        border: 5px solid rgb(2, 2, 141);
+    }
+    100%{
+        border: 5px solid rgb(54, 2, 128);
+    }
+    
+}
+footer{
+    background-image: url(images/background.jpg);
+    height: 40px;
+}
+footer h3{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
